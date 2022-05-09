@@ -1,14 +1,36 @@
 .galery{
-    box-shadow: 50px 50px green;
-    outline: 1px solid green;
+    margin-left: -10%;
+    position: relative;
 }
 
-.another-groups > div > img{
+.galery-background{
+    width: 130%;
+    height: 130%;
+    background-color: green;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: -1;
+}
+
+.another-groups{
+    position: absolute;
+    top: 120%;
+    left: 10%;
+}
+
+.img-circle > img{
     border-radius: 50%;
-    outline: 1px solid green;
+    outline: 2px solid green;
 }
 
 .img-circle{
-    height: 20vh;
-    width: 20vw;
+    height: 15vw;
+    width: 15vw;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+.pictures{
+    box-shadow: 2px 2px 10px 0 black;
 }
