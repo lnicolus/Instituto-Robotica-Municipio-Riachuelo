@@ -1,0 +1,113 @@
+/* First Section, Landing and About */
+.wrapper-first-section {    
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.institutional-green{
+    background-color: #027d3c;
+}
+
+.institutional-grey{
+    background-color: #E6E6E6;
+}
+
+.white-section-bg{
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.first-green-square {
+    position: absolute;
+    width: 30.5%;    
+    left: 30%;   
+    height: 80vh; 
+    z-index: 1; 
+}
+
+.primary-logo{
+    position: absolute;
+    z-index: 2;
+    margin-top: 1%;
+    margin-left: 41%;
+    background-color: white;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* Bienvenidos! */
+.first-grey-square{
+    position: absolute;
+    z-index: 3;
+    max-width: 24%;    
+    margin-top: 17%;
+    margin-left: 57%;
+    border-color: white;  
+    border-style: solid;  
+    border-width: 1vh;
+    opacity: 88%;
+}
+
+div button{
+  box-shadow: 5px 5px 5px black;
+}
+
+
+.institutional-video-container{
+    position: absolute;
+    width: 7%;    
+    z-index: 2;  
+    margin-top: 15%;
+    margin-left: 42%;    
+}
+
+.institutional-img-one{
+  position: absolute;   
+  z-index: 1;  
+  margin-top: 8.5%;
+  margin-left: 25%;    
+}
+
+.buttons-container{
+  display: flex;
+}
+
+.first-grey-section-bg{
+  position: absolute;  
+  width: 77vw;
+  margin-top: 57vh;
+  min-height: 65vh;
+  margin-left: 10%;
+}
+
+.about-school{
+  margin-top: 27vh;
+}
+.about-school p{
+  width: 80%;
+}
+.underline{
+  min-width: 40%;
+  min-height: 1vh;
+}
+
+/* MODAL */
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
