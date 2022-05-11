@@ -69,7 +69,8 @@ div button{
   position: absolute;   
   z-index: 1;  
   margin-top: 8.5%;
-  margin-left: 25%;    
+  margin-left: 25%;  
+  min-width: 40%;  
 }
 
 .buttons-container{
