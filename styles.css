@@ -13,6 +13,10 @@
     background-color: #E6E6E6;
 }
 
+.institutional-green-font{
+  color: #027d3c;
+}
+
 .white-section-bg{
     position: relative;
     width: 100%;
@@ -56,7 +60,6 @@ div button{
   box-shadow: 5px 5px 5px black;
 }
 
-
 .institutional-video-container{
     position: absolute;
     width: 7%;    
@@ -96,7 +99,38 @@ div button{
   min-height: 1vh;
 }
 
-/* MODAL */
+
+/* Seccion 2 Mision*/
+.mission-section{
+  margin-top: 22vh;
+  margin-left: 15%;
+  width: 70vw;
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;   
+}
+
+#mission-read-more{
+  width: 15vw;
+}
+
+#mission-quote{
+  width: 18vw;
+  margin-right: 16%;
+  margin-left: 8%;
+}
+
+.second-green-square{
+  min-height: 71vh;
+  width: 20vw;
+}
+
+#floating-pic-mission{
+  position: absolute;
+  margin-left: 45%;
+}
+
+/* Modal Video */
 .iframe-container {
   overflow: hidden;
   /* 16:9 aspect ratio */
