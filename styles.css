@@ -107,7 +107,7 @@ div button{
   width: 70vw;
   display: flex; 
   flex-wrap: wrap;
-  align-items: center;   
+  align-items: center;
 }
 
 #mission-read-more{
@@ -129,6 +129,82 @@ div button{
   position: absolute;
   margin-left: 45%;
 }
+
+/* Seccion Franja Etaria */ 
+.groups-section{
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+}
+.third-green-square{
+  position: absolute;
+  height: 80vh;
+  width: 35vw;
+  margin-left: 29.7%;
+  z-index: 2;
+  
+}
+
+.second-grey-section-bg{
+  position: absolute;  
+  width: 80vw;  
+  min-height: 60vh;
+  margin-left: 10%;
+  z-index: 1;
+  margin-top: 9.7%;
+}
+
+#student-groups-pic{
+  position: absolute;
+  z-index: 3;
+  margin-top: 5%;
+  margin-left: 26%;
+}
+
+
+#age-groups-wrapper{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  margin-top: 2%;
+  margin-left: 51%;
+  align-items: center
+}
+
+.second-grey-square{     
+    border-color: white;  
+    border-style: solid;  
+    border-width: 1vh;
+    opacity: 88%;
+    max-width: 65%;
+
+}
+
+.second-grey-square p{
+  opacity: 100%;
+  font-weight: 600;
+}
+
+
+#age-groups-shields-wrapper{
+  display: flex;
+  flex-direction: row;
+  z-index: 3; 
+  flex-wrap: wrap;
+  margin-top: 2%;
+  max-width: 50%;
+}
+
+.group-shields{
+  width: 40%;
+  box-shadow: 7px 7px 7px rgb(59, 59, 59)
+}
+
+.group-shields h4{
+  text-align: center;
+}
+
 
 /* Modal Video */
 .iframe-container {
