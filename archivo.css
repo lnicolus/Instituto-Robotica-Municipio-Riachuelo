@@ -86,3 +86,27 @@
     color: black;
     background-color: white;
 }
+
+.modal-size{
+    height: 40vh;
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-size{
+    height: 100%;
+}
+
+.carousel-inner-size{
+    height: 100%;
+}
+
+.carousel-next{
+    position: absolute;
+    right: -15%;
+}
+
+.carousel-prev{
+    position: absolute;
+    left: -15%;
+}

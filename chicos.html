@@ -34,13 +34,60 @@
                 <!-- Galeria de imagenes -->
                 <div class="row col-12 galery">
                     <!-- Imagenes -->
-                    <div class="col-3 px-1"><img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" alt="" class="img-fluid pictures"></div>
-                    <div class="col-3 px-1"><img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" alt="" class="img-fluid pictures"></div>
-                    <div class="col-3 px-1"><img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" alt="" class="img-fluid pictures"></div>
-                    <div class="col-3 px-1"><img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" alt="" class="img-fluid pictures"></div>
+                    <div class="col-3 px-1">
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" alt="" class="img-fluid pictures"></a>
+                    </div>
+                    <div class="col-3 px-1">
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" alt="" class="img-fluid pictures"></a>
+                    </div>
+                    <div class="col-3 px-1">
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" alt="" class="img-fluid pictures"></a>
+                    </div>
+                    <div class="col-3 px-1">
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" alt="" class="img-fluid pictures"></a>
+                    </div>
                     <div class="galery-background">
                         <!-- Contenedor con background haciendo efecto de shadow. Tambien se podria hacer con box-shadow -->
                     </div>    
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content modal-size">
+                                <!-- Carousel -->
+                                <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-size" data-bs-ride="true">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    </div>
+                                    <div class="carousel-inner carousel-inner-size">
+                                      <div class="carousel-item h-100 active">
+                                        <img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" class="d-block img-fluid" alt="...">
+                                      </div>
+                                      <div class="carousel-item h-100">
+                                        <img src="https://cdn.pixabay.com/photo/2018/01/17/18/43/book-3088775_960_720.jpg" class="d-block img-fluid" alt="...">
+                                      </div>
+                                      <div class="carousel-item h-100">
+                                        <img src="https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_960_720.jpg" class="d-block img-fluid" alt="...">
+                                      </div>
+                                      <div class="carousel-item h-100">
+                                        <img src="https://cdn.pixabay.com/photo/2018/01/17/18/43/book-3088775_960_720.jpg" class="d-block img-fluid" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev carousel-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next carousel-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+
+                            </div>
+                        </div>
         
                     <div class="row col-12 col-lg-10 justify-content-center another-groups">
                         <!-- Otros grupos -->
@@ -90,5 +137,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
