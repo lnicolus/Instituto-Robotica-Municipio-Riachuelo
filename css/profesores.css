@@ -15,8 +15,24 @@
 
 /* Seccion Vision */
 
-.img-circle{
+.img-absolute{
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img-circle::before{
+    content: "";
+    background-image: url(../img/logo2.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 10em;
+    height: 10em;
     border-radius: 50%;
+    position: absolute;
+    top: -7em;
+    left: -4em;
+    z-index: -1;
 }
 
 .vision-title-border{
@@ -26,6 +42,18 @@
 .vision-title{
     color: green;
     position: relative;
+}
+
+.anchor-inscribe{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    box-shadow: 4px 4px 4px black;
+}
+
+.anchor-inscribe:hover{
+    text-decoration: none;
+    color: white;
 }
 
 .principal-section{
