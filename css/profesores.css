@@ -13,6 +13,21 @@
     margin-bottom: 20vh;
 }
 
+/* Seccion Vision */
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.vision-title-border{
+    border-bottom: 4px black solid;
+}   
+
+.vision-title{
+    color: green;
+    position: relative;
+}
+
 .principal-section{
     margin-left: 10%;
 }
