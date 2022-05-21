@@ -209,9 +209,9 @@ div button{
 .iframe-container {
   overflow: hidden;
   /* 16:9 aspect ratio */
-  padding-top: 56.25%;
-  position: relative;
+  padding-top: 56.25%;  
 }
+
 .iframe-container iframe {
    border: 0;
    height: 100%;
@@ -220,3 +220,17 @@ div button{
    top: 0;
    width: 100%;
 }
+
+/* Modal Form */
+
+.modal-dialog {
+    min-width:auto;    
+ }
+
+ .modal-content { 
+    min-height: 90vh;
+ }
+
+ .modal-header img{
+    max-width: 100%;
+ }
