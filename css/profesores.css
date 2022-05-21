@@ -40,13 +40,13 @@
 }   
 
 .vision-title{
-    color: green;
+    color: #027d3c;
     position: relative;
 }
 
 .anchor-inscribe{
     text-decoration: none;
-    background-color: green;
+    background-color: #027d3c;
     color: white;
     box-shadow: 4px 4px 4px black;
 }
@@ -59,14 +59,14 @@
 .principal-section{
     margin-left: 10%;
 }
-
+/* Eliminada green background */
 .green-background{
     width: 100%;
     height: 100%;
     position: absolute;
     top: -15%;
     left: -18%;
-    background-color: green;    
+    background-color: #027d3c;    
     z-index: -1;
 }
 
@@ -92,7 +92,7 @@
 .pictures-background{
     width: 100%;
     height: 100%;
-    background-color: green;
+    background-color: #027d3c;
     position: absolute;
     top: 12%;
     left: -12%;
@@ -120,8 +120,8 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 10%;
-    top: 10%;
+    left: 7%;
+    top: 5%;
     border: 5px solid white;
     background-color: transparent;
     z-index: 1;
@@ -129,12 +129,15 @@
 }
 
 .modal-green-background{
-    background-color: green;
+    background-color: #027d3c;
     width: 40%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 20%;
+}
+.modal-green-background div{
+    margin-top:190%;
 }
 
 .z-index-1{

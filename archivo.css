@@ -1,11 +1,6 @@
-.wrapper{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.wrapper main{
-    flex-grow: 1;
+.img-footer{
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .footer-wrap{
@@ -15,6 +10,16 @@
 
 .margin-top{
     margin-top: 50vh;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper main{
+    flex-grow: 1;
 }
 
 .galery{
@@ -69,10 +74,7 @@
     border-bottom: 2px solid white;
 }
 
-.img-footer{
-    border-radius: 50%;
-    overflow: hidden;
-}
+
 
 .button{
     font-size: 0.8em;
