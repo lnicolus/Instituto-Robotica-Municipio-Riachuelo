@@ -209,9 +209,9 @@ div button{
 .iframe-container {
   overflow: hidden;
   /* 16:9 aspect ratio */
-  padding-top: 56.25%;
-  position: relative;
+  padding-top: 56.25%;  
 }
+
 .iframe-container iframe {
    border: 0;
    height: 100%;
@@ -220,3 +220,38 @@ div button{
    top: 0;
    width: 100%;
 }
+
+/* Modal Form */
+
+.modal-dialog {
+    min-width:auto;    
+ }
+
+ .modal-content { 
+    min-height: 90vh;
+    min-width: 50vw;      
+ }
+
+ .modal-logo { 
+    max-width: 35%;  
+    z-index: 4;    
+    position: absolute;
+    margin-bottom: 70%;
+    margin-left: 63%;
+ }
+
+ .modal-header img{
+    max-width: 100%;
+ }
+
+ /* External File */
+
+ .img-footer{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.margin-top{
+    margin-top: 1vh;
+}
+
