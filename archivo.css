@@ -112,3 +112,13 @@
     position: absolute;
     left: -15%;
 }
+
+.kids-logo{
+    position: absolute;
+    top: -5vw;
+    right: -10vw;
+}
+
+.margin-arriba{
+    margin-top: 10vh;
+}

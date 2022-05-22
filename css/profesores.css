@@ -85,8 +85,8 @@
 
 .gray-background{
     background-color: lightgray;
-    padding: 10vw 5vw;
-    z-index: -2;
+    position: relative;
+    z-index: 5;
 }
 
 .pictures-background{
@@ -135,9 +135,9 @@
     position: absolute;
     top: 0;
     left: 20%;
-}
-.modal-green-background div{
-    margin-top:190%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 .z-index-1{
@@ -150,4 +150,41 @@
 
 .fill-white{
     fill: white;
+}
+
+.anchor-teachers{
+    background-color: lightgrey;
+    position: relative;
+    border: 6px solid #fff;
+    padding: 0.5em;
+}
+
+.anchor-teachers-text{
+    z-index: 20;
+}
+
+.anchor-teachers-background{
+    width: 105%;
+    height: 125%;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    z-index: -1;
+    border: 6px solid #027d3c;
+}
+
+.teacher-quotes{
+    width: 17%;
+    position: absolute;
+    right: 10%;
+    transform: translate(0,-30%);
+}
+
+.img-png{
+    width: 100%;
+    height: 100%;
+}
+
+.padding-teachers{
+    padding: 10vw 5vh;
 }
