@@ -43,14 +43,25 @@
     left: 10%;
 }
 
-.img-circle > img{
+.another-groups-logo{
+    padding: 12px;
+    position: relative;
+    box-shadow: 4px 4px 7px black;
     border-radius: 50%;
-    outline: 2px solid green;
+    background-color: white;
+    overflow: hidden;
+}
+
+.another-groups-text{
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .img-circle{
-    height: 15vw;
-    width: 15vw;
+    height: 7.5vw;
+    width: 7.5vw;
     min-height: 150px;
     min-width: 150px;
 }
@@ -115,8 +126,24 @@
 
 .kids-logo{
     position: absolute;
-    top: -5vw;
-    right: -10vw;
+    top: -2vw;
+    right: -7.5vw;
+}
+
+.kids-logo-div{
+    position: relative;
+    padding: 12px;
+    box-shadow: 4px 4px 7px black;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.kids-logo-text{
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .margin-arriba{
