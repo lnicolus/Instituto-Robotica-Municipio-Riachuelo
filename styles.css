@@ -1,3 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+a img{
+  width: 100%;
+}
+
 .wrapper-first-section {    
     min-width: 100vw;
     min-height: 100vh;
@@ -37,9 +52,9 @@
     margin-top: 1%;
     margin-left: 41%;
     background-color: white;
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
+    border-radius: 50%;    
+    max-width: 250px;
+    max-height: 250px;
 }
 
 /* Bienvenidos! */
@@ -47,7 +62,7 @@
     position: absolute;
     z-index: 3;
     max-width: 24%;    
-    margin-top: 17%;
+    margin-top: 20%;
     margin-left: 57%;
     border-color: white;  
     border-style: solid;  
@@ -70,7 +85,7 @@ div button{
 .institutional-img-one{
   position: absolute;   
   z-index: 1;  
-  margin-top: 8.5%;
+  margin-top: 10%;
   margin-left: 25%;  
   min-width: 40%;  
 }
@@ -127,27 +142,27 @@ div button{
 #floating-pic-mission{
   position: absolute;
   margin-left: 45%;
+  max-width: 35%;
 }
 
 /* Seccion Franja Etaria */ 
 .groups-section{
   position: relative;
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
 }
 .third-green-square{
   position: absolute;
-  height: 80vh;
+  height: 70vh;
   width: 35vw;
   margin-left: 29.7%;
-  z-index: 2;
-  
+  z-index: 2;  
 }
 
 .second-grey-section-bg{
   position: absolute;  
   width: 80vw;  
-  min-height: 60vh;
+  min-height: 50vh;
   margin-left: 10%;
   z-index: 1;
   margin-top: 9.7%;
@@ -158,6 +173,7 @@ div button{
   z-index: 3;
   margin-top: 5%;
   margin-left: 26%;
+  max-width: 35%;
 }
 
 
@@ -204,32 +220,15 @@ div button{
   text-align: center;
 }
 
-
-/* Modal Video */
-.iframe-container {
-  overflow: hidden;
-  /* 16:9 aspect ratio */
-  padding-top: 56.25%;  
-}
-
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
-
 /* Modal Form */
 
 .modal-dialog {
     min-width:auto;    
  }
 
- .modal-content { 
-    min-height: 90vh;
-    min-width: 50vw;      
+ .modal-content {     
+   min-width: fit-content;
+   min-height: fit-content;      
  }
 
  .modal-logo { 
@@ -256,3 +255,11 @@ div button{
     margin-top: 1vh;
 }
 
+footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.modal-dialog-teacher{
+ min-width: 50vw;  
+}

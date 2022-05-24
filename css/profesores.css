@@ -6,11 +6,11 @@
 }
 
 .margin-top{
-    margin-top: 20vh;
+    margin-top: 12vh;
 }
 
 .margin-bottom{
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
 }
 
 /* Seccion Vision */
@@ -23,20 +23,21 @@
 
 .img-circle::before{
     content: "";
-    background-image: url(../img/logo2.jpeg);
+    background-image: url(../img/logo3.jpg);
     background-position: center;
     background-size: cover;
-    width: 10em;
-    height: 10em;
+    width: 13em;
+    height: 13em;
     border-radius: 50%;
     position: absolute;
-    top: -7em;
-    left: -4em;
+    top: -8.5em;
+    left: -6em;
     z-index: -1;
 }
 
 .vision-title-border{
-    border-bottom: 4px black solid;
+    background-color: black;
+    width: 78%;
 }   
 
 .vision-title{
@@ -47,8 +48,10 @@
 .anchor-inscribe{
     text-decoration: none;
     background-color: #027d3c;
+    border-color: #027d3c;
     color: white;
     box-shadow: 4px 4px 4px black;
+    width: 50%;
 }
 
 .anchor-inscribe:hover{
@@ -71,14 +74,14 @@
 }
 
 .teacher-welcome{
-    width: 40%;
-    max-width: 280px;
+    width: 50%;    
     position: absolute;
     top: 70%;
     right: -10%;
-    outline: 5px solid white;
+    outline: 9px solid white;
     background-color: #ddde;
-    z-index: 1;
+    z-index: 7;
+    opacity: 88%;
 }
 
 /* Seleccion de profesores */
@@ -87,21 +90,19 @@
     background-color: lightgray;
     position: relative;
     z-index: 5;
+    padding-bottom: 2%;
 }
 
 .pictures-background{
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 105%;
     background-color: #027d3c;
     position: absolute;
     top: 12%;
-    left: -12%;
+    left: -32%;
     z-index: 0;
 }
 
-.pictures{
-    z-index: 1;
-}
 
 .pictures-text{
     color: white;
@@ -109,11 +110,12 @@
 
 .button-modal{
     border: none;
+    box-shadow: none;
 }
 
 .teacher-modal{
     background-color: white;
-    height: 75vh;
+    height: 75vh;    
 }
 
 .picture-border{
@@ -124,8 +126,7 @@
     top: 5%;
     border: 5px solid white;
     background-color: transparent;
-    z-index: 1;
-    box-shadow: 0 0 10px black;
+    z-index: 1;    
 }
 
 .modal-green-background{
@@ -155,20 +156,21 @@
 .anchor-teachers{
     background-color: lightgrey;
     position: relative;
-    border: 6px solid #fff;
+    border: 8px solid #fff;
     padding: 0.5em;
+    width: 20%;
 }
 
 .anchor-teachers-text{
-    z-index: 20;
+    z-index: 20;    
 }
 
 .anchor-teachers-background{
     width: 105%;
     height: 125%;
     position: absolute;
-    top: 1em;
-    left: 1em;
+    top: 0,4em;
+    left: 0,4em;
     z-index: -1;
     border: 6px solid #027d3c;
 }
@@ -176,8 +178,14 @@
 .teacher-quotes{
     width: 17%;
     position: absolute;
-    right: 10%;
-    transform: translate(0,-30%);
+    right: 5%;
+    transform: translate(0,-25%);
+}
+
+.teacher-pic{
+    max-height: 33vh;
+    min-width: 10vw;
+    z-index: 1;    
 }
 
 .img-png{
@@ -186,5 +194,8 @@
 }
 
 .padding-teachers{
-    padding: 10vw 5vh;
+    padding-top: 5vw;
+    padding-right: 5vh;
+    padding-bottom: 5vw;
+    padding-left: 5vh;
 }
