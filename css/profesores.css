@@ -169,8 +169,8 @@
     width: 105%;
     height: 125%;
     position: absolute;
-    top: 0,4em;
-    left: 0,4em;
+    top: 1em;
+    left: 1em;
     z-index: -1;
     border: 6px solid #027d3c;
 }
